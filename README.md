@@ -16,8 +16,7 @@ pelo Event Notification.
 2. Event Notification envia os eventos para o tópico AWS SNS. Outros destinos podem
 ser configurado como AWS Lambda, AWS SQS. Para mais detalhes veja: [Using Amazon SQS, Amazon SNS, and Lambda](https://docs.aws.amazon.com/AmazonS3/latest/userguide/how-to-enable-disable-notification-intro.html)
 
-3. Os eventos tópico são enviados para o fila do AWS SQS. O objetivo de assinar uma fila SQS
-no tópico SNS foi para visualizar no próprio console o formado no eventos enviado para o tópico do SNS
+3. Os eventos do tópico são enviados para a fila AWS SQS. Acessando a fila SQS, através do console da AWS, é possível visualizar o formato do log de evento.
 
 ## Pré Requisitos
 - [Conta AWS](https://comunidadecloud.com/como-criar-uma-conta-na-aws/).
