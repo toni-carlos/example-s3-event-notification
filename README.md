@@ -39,7 +39,7 @@ $ terraform apply
 
 ```
 
-Ao executar os comandos acima seram criados os recursos que foram definidos no arquivo main.tf
+Ao executar os comandos acima, serão criados os recursos que foram definidos no arquivo main.tf
 
 ## Destrua os recursos criados nesse exemplo para não gerar custos na conta AWS
 
